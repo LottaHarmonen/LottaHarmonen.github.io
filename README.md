@@ -10,7 +10,7 @@ Technologies Used:
    
 Getting Started:
 To view the Car Repair Shop website:
-[Link to the website]https://lottaharmonen.github.io/OmOss.html
+https://lottaharmonen.github.io/Hem.html
 or
 
 1. Clone this repository to your local machine.
