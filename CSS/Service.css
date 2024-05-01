@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: #fefefd;
+    justify-content: flex-end;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header .Logo {
+    margin-top: 20px;
+    margin-left: 215px;
+    margin-bottom: 20px;
+}
+
+.header .iconsHeader {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.icons {
+    margin-right: 15px;
+}
+
+.iconsHeader div {
+    display: flex;
+    margin-left: 100px;
+    align-items: center;
+}
+
+.iconsHeader p {
+    font-size: 12px;
+    color: #737C81;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.phone {
+    color: #3860b7;
+}
+
+.openingHours {
+    color: #3860b7;
+}
+
+
+.navbar {
+    background: linear-gradient(to top, #5D80CD, #3860b7);
+    height: 60px;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.5);
+}
+
+.navbar .dropdown-menu {
+    background: linear-gradient(to top, #5D80CD, #3860b7);
+}
+
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    display: none;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    background-color: #ebebeb;
+}
+
+.middle .jumbotron {
+    background-color: #ebebeb;
+    margin-left: 100px;
+}
+
+
+.image-container {
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 80px;
+
+}
+
+.image-container .imageOmOss {
+    width: 450px;
+    margin: 10px;
+
+}
+
+.footer {
+    background-color: #3860b7;
+    justify-content: center;
+    display: flex;
+    height: 300px;
+}
+
+
+.footer .jumbotron {
+    background-color: #3860b7;
+}
+
+.footer .jumbotron .container .LinkFooter {
+    display: block;
+    margin-bottom: 10px;
+    color: #fefefd;
+}
+
+.jumbotron .container .display-4 {
+    font-size: 20px;
+    color: #fefefd;
+    font-weight: bold;
+}
+
+.jumbotron .container .lead {
+    font-size: 17px;
+    color: #cccccc;
+}
